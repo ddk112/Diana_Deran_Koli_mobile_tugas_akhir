@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/backgrd"
+    tools:context=".MainCreate">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/putih"
+        android:textStyle="bold"
+        android:textSize="28dp"
+        android:text="Tambah Data Drakor" />
+    <EditText
+        android:id="@+id/create_judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/putih"
+        android:layout_marginTop="20dp"
+        android:textStyle="normal"
+        android:textColorHint="@color/abuabu"
+        android:hint="judul drakor" />
+    <EditText
+        android:id="@+id/create_genre"
+        android:hint="genre drakor"
+        android:layout_width="match_parent"
+        android:textStyle="normal"
+        android:textColorHint="@color/abuabu"
+        android:textColor="@color/putih"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/create_episode"
+        android:hint="jumlah episode"
+        android:layout_width="match_parent"
+        android:textStyle="normal"
+        android:textColorHint="@color/abuabu"
+        android:textColor="@color/putih"
+        android:layout_height="wrap_content" />
+    <Button
+        android:background="@drawable/putih_hitam_ungu"
+        android:id="@+id/create_btn"
+        android:layout_marginTop="20dp"
+        android:text="Tambah Data"
+        android:textSize="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
